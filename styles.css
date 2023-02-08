@@ -1,0 +1,42 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-repeat: no-repeat;
+background-size:cover;
+}
+body{
+background-image: url('https://uploads.jovemnerd.com.br/wp-content/uploads/2023/01/the_mandalorian_temporada_3_cartaz__zi41q82t-1210x544.jpg');
+color: whitesmoke;
+font-family: 'Press Start 2P', cursive;
+user-select: none;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+width: 100vw;
+height: 100vh;
+align-items: center;
+justify-content: space-evenly;
+text-align: center;
+background-color: #00000080;
+}
+
+.title{
+font-size: calc(10px + 3vw);
+}
+.title p {
+    font-size: calc(9px + 1vw);
+}
+.countdown{
+display: flex;
+width: 60w;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.countdown h1{
+font-size: calc(10px + 3vw);
+}
+
